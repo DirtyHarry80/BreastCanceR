@@ -63,7 +63,7 @@ CAF.1 <- c("myCAFs","iCAFs","dPVL","imPVL",
 CAF.res.1 <- NULL
 for (i in CAF.1) {
   for (j in CAF.1) {
-    if (i!=j) CAF.res.1[[paste(i, j, sep="-")]] <- FindMarkers(TNBC.seurat, ident.1=i, ident.2=j, only.pos=F)  
+    if (i!=j) CAF.res.1[[paste(i, j, sep="-")]] <- FindMarkers(TNBC.seurat, ident.1=i, ident.2=j, only.pos=F, logfc.threshold=0.9)  
   }
 }
 gene <- "SPARC"
@@ -149,7 +149,7 @@ CAF.2 <- c("ECM-myCAF","Detox-iCAF","IL-iCAF","TGFβ-myCAF",
 CAF.res.2 <- NULL
 for (i in CAF.2) {
   for (j in CAF.2) {
-    if (i!=j) CAF.res.2[[paste(i, j, sep="-")]] <- FindMarkers(CAF.breast, ident.1=i, ident.2=j, only.pos=F)  
+    if (i!=j) CAF.res.2[[paste(i, j, sep="-")]] <- FindMarkers(CAF.breast, ident.1=i, ident.2=j, only.pos=F, logfc.threshold=0.9)  
   }
 }
 gene <- "SPARC"
