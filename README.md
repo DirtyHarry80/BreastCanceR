@@ -5,7 +5,13 @@ A script based on Seurat Package to interrogate publicly available scRNAseq data
 Following datasets should be loaded to re-create the figures of the article (Alcaraz L. et al. pending):
 
 Figure 3: article: PMID: 32790115; https://www.embopress.org/doi/full/10.15252/embj.2019104063 [data: https://ega-archive.org/datasets/EGAD00001006981]
+
+
 Figure S6: article: PMID: 30181541; https://www.nature.com/articles/s41467-018-06052-0 [data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118390]
+
+
 Figure S7: article: PMID: 32434947; https://aacrjournals.org/cancerdiscovery/article/10/9/1330/2752/Single-Cell-Analysis-Reveals-Fibroblast-Clusters [data:https://ega-archive.org/search-results.php?query=EGAS00001004030]
+
+
 
 !!Questions/issues regarding the availability of the abovementioned data, please address to the corresponding author of the respective study!!
