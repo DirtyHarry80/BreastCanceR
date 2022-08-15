@@ -1,4 +1,4 @@
-# BreastCancerR
+# BreastCanceR
 
 A script based on Seurat Package (https://satijalab.org/seurat/) to interrogate publicly available scRNAseq data on breast cancer. The objective is to interrogate the expression of SPARC gene in the cellular subsets found in the breast tumor (as well as test the significance of differential expression in the individual cell populations). The script can be simply adapted to interrogate the expression of any other gene present in the dataset.
 
